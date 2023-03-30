@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: '',
 
   PROVINCE: '广东',
-  CITY: '惠州',
+  CITY: '深圳',
 
   USERS: [
     {
@@ -29,22 +29,22 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '*生日', name: 'CYL', year: '1999', date: '06-18',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: 'MZJ', year: '1995', date: '01-11',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '纪念日', year: '2023', date: '02-14',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'love_day', date: '2023-02-14' },
+//         // 结婚纪念日
+//         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
